@@ -1,2 +1,2 @@
 # bodgR
- Some functions bodged together into a handy R package
+ Illustration how one can easily bundle some functions together into a handy R package
