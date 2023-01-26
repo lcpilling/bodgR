@@ -4,7 +4,7 @@ Introduction to easily bundling some functions together into a handy R package
  - Video of talk [internal University of Exeter only]: https://web.microsoftstream.com/video/2b13ac25-83be-46b9-8ea0-3971969954dd
 
 ## Installation
-`devtools::install_github("lukepilling/lukesRlib")`
+`devtools::install_github("lukepilling/bodgR")`
 
 ## Contains
 One R function `z_transform()` to Z-transform a quantitative trait (vector) i.e., convert to mean=0 and sd=1, maintaining original distribution
