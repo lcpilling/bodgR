@@ -14,10 +14,10 @@
 #' z_transform(x)
 #'
 #' @export
-#'
 
 z_transform = function(x) {
 	if (!is.numeric(x))  stop("x needs to be numeric")
 	x_zt = ( ( x - mean(x, na.rm=TRUE) ) / sd(x, na.rm=TRUE) )
 	x_zt
 }
+
